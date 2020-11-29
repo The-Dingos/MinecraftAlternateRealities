@@ -1,0 +1,164 @@
+{
+  "bonus_chest": false,
+  "dimensions": {
+    "minecraft:overworld": {
+      "generator": {
+        "type": "minecraft:noise",
+        "seed": -372991302,
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "humidity_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0, 
+              1.0
+            ]
+          },
+          "altitude_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "weirdness_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "temperature_noise": {
+            "firstOctave": -5,
+            "amplitudes": [
+              1.5,
+              0.5
+            ]
+          },
+          "seed": -372991302,
+          "biomes": [
+            {
+              "biome": "minecraft:savanna_plateau",
+              "parameters": {
+                "temperature": -1.2,
+                "humidity": 0.0,
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0
+              }
+            }, 
+            {
+              "biome": "minecraft:shattered_savanna",
+              "parameters": {
+                "temperature": -1.19,
+                "humidity": 0.0,
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0
+              }
+            },
+            {
+              "biome": "minecraft:shattered_savanna",
+              "parameters": {
+                "temperature": -1.0,
+                "humidity": 0.0,
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0
+              }
+            }, 
+            {
+              "biome": "minecraft:desert",
+              "parameters": {
+                "temperature": -0.99,
+                "humidity": 0.0,
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0
+              }
+            }, 
+            {
+              "parameters": {
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0.0,
+                "temperature": 0.3,
+                "humidity": 0.0
+              },
+              "biome": "minecraft:desert"
+            },
+            {
+              "parameters": {
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0.0,
+                "temperature": 0.50,
+                "humidity": 0.0
+              },
+              "biome": "minecraft:desert_hills"
+            },
+            {
+              "parameters": {
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0.0,
+                "temperature": 0.51,
+                "humidity": 0.0
+              },
+              "biome": "minecraft:badlands_plateau"
+            },
+            {
+              "parameters": {
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0.0,
+                "temperature": 0.79,
+                "humidity": 0.0
+              },
+              "biome": "minecraft:badlands_plateau"
+            },
+            {
+              "parameters": {
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0.0,
+                "temperature": 0.8,
+                "humidity": 0.0
+              },
+              "biome": "minecraft:eroded_badlands"
+            }
+          ]
+        },
+        "settings": "minecraft:overworld"
+      },
+      "type": "minecraft:overworld"
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "biome_source": {
+          "preset": "minecraft:nether",
+          "seed": -372991302,
+          "type": "minecraft:multi_noise"
+        },
+        "seed": -372991302,
+        "settings": "minecraft:nether",
+        "type": "minecraft:noise"
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "biome_source": {
+          "seed": -372991302,
+          "type": "minecraft:the_end"
+        },
+        "seed": -372991302,
+        "settings": "minecraft:end",
+        "type": "minecraft:noise"
+      }
+    }
+  },
+  "seed": -372991302,
+  "generate_features": true
+}
